@@ -12,6 +12,9 @@ import { CreateAnnouncementComponent } from './admin-panel/create-announcement/c
 import { AddTagComponent } from './admin-panel/add-tag/add-tag.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { AnnouncementsComponent } from './home/announcements/announcements.component';
+import { AboutComponent } from './home/about/about.component';
+import { FoundersComponent } from './home/founders/founders.component';
 
 
 @NgModule({
@@ -24,6 +27,9 @@ import { HomeComponent } from './home/home.component';
     CreateAnnouncementComponent,
     AddTagComponent,
     HomeComponent,
+    AnnouncementsComponent,
+    AboutComponent,
+    FoundersComponent,
   ],
   imports: [
     BrowserModule,
